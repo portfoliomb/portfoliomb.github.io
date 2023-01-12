@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact</title>
+    <link rel="shortcut icon" href="../img/logocontact.jpeg" />
+    <link rel="stylesheet" href="../styles/styleform.css" />
+  </head>
+
+  <body>
+    <form
+      id="form"
+      action="mailto:mathilde.bressoulaly@icloud.com?content-type=text/html&amp;subject=Formulaire%20Web%20Polytech"
+      method="post"
+      enctype="application/x-www-form-urlencoded"
+    >
+      <div class="container">
+        <h1>Contact</h1>
+        <div class="form-control">
+          <label for="email">Adresse mail *</label>
+          <br />
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="form-control">
+          <label for="message">Message *</label>
+          <br />
+          <textarea name="message" rows="10" cols="20" id="message"></textarea>
+        </div>
+        <p id="haut_page">Champs obligatoires '*'</p>
+        <div class="button">
+          <input type="submit" value="Envoyer" />
+        </div>
+      </div>
+    </form>
+    <a href="../../index.html" data-scroll-to>Page d'accueil</a>
+    <script src="../js/form.js"></script>
+  </body>
+</html>
